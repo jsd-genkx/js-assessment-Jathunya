@@ -20,6 +20,15 @@ class Field {
 		this.positionRow = 0;
 		this.positionCol = 0;
 		this.field[this.positionRow][this.positionCol] = pathCharacter;
+
+		constructor(field = [[]]) {
+		this.field = field;
+
+		// Replace with your own code //
+		// Set the home position at (0, 0) before the game starts
+		this.positionRow = 0;
+		this.positionCol = 0;
+		this.field[this.positionRow][this.positionCol] = pathCharacter;
 	}
 	this.positionRow = 0;
 		this.positionCol = 0;
