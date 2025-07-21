@@ -21,6 +21,11 @@ class Field {
 		this.positionCol = 0;
 		this.field[this.positionRow][this.positionCol] = pathCharacter;
 	}
+	this.positionRow = 0;
+		this.positionCol = 0;
+		this.field[this.positionRow][this.positionCol] = pathCharacter;
+	}
+
 
 	// Print field //
 	print() {
